@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Furni - services</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Navbar Start -->
+
+<nav>
+
+<a href="index.html" class="logo">
+Furni<span>.</span>
+</a>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="shop.html" class="active">Shop</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="contact.html">Contact us</a></li>
+</ul>
+
+
+
+<div class="icons">
+<a href="#"><i class="fa-regular fa-user"></i></a>
+<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+</div>
+
+</nav>
+
+
+<!-- Services Hero Section -->
+
+<section class="services-hero">
+
+    <div class="services-text">
+
+        <h1>Services</h1>
+
+        <p>
+        We offer stylish and comfortable furniture made with quality
+        materials, designed to make your home beautiful and welcoming.
+
+        </p>
+
+        <div class="service-buttons">
+            <a href="#" class="shop-btn">Shop Now</a>
+            <a href="#" class="explore-btn">Explore</a>
+        </div>
+
+    </div>
+
+    <div class="services-image">
+        <img src="image/couch 1.png" alt="Sofa">
+    </div>
+
+</section>
+
+
+<!-- Services Features -->
+
+<section class="why-section">
+
+    <!-- CENTER HEADING -->
+    <div class="why-heading">
+
+        <h2>Why Choose Us</h2>
+
+        <p>
+            We offer stylish and comfortable furniture made with quality
+            materials, designed to make your home beautiful and welcoming.
+        </p>
+
+    </div>
+
+
+    <!-- IMAGE + 4 BOXES -->
+    <div class="section">
+
+        <!-- IMAGE -->
+        <div class="image-box">
+            <img src="image/main img 1.jpg" alt="Product">
+        </div>
+
+
+        <!-- 4 BOXES -->
+        <div class="boxes">
+
+            <div class="box">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Fast & Free Shipping</h3>
+                <p>
+                    We provide beautiful and comfortable furniture for your home.
+                </p>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <h3>Easy to Shop</h3>
+                <p>
+                    We create beautiful and comfortable furniture for your home.
+                </p>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>
+                    We offer stylish, comfortable, and high-quality furniture
+                    for your home.
+                </p>
+            </div>
+
+
+            <div class="box">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+                <h3>Hassle Free Returns</h3>
+                <p>
+                    We provide beautiful and comfortable furniture for your home.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="products">
+
+    <div class="text">
+        <h2>Crafted with excellent material.</h2>
+
+        <p>
+            We offer beautiful and comfortable furniture made with quality materials.
+             Our designs are stylish, durable, and perfect for every modern home.
+
+        </p>
+
+        <button>Explore</button>
+    </div>
+
+    <div class="product-card">
+        <img src="/image/product- 1.png" alt="Nordic Chair">
+        <h3>Simple Chair</h3>
+        <h4>₹5,500</h4>
+        <div class="plus">+</div>
+    </div>
+
+    <div class="product-card">
+        <img src="image/product-2.png" alt="Kruzo Aero Chair">
+        <h3> Aero Chair</h3>
+        <h4>₹6,000</h4>
+        <div class="plus">+</div>
+    </div>
+
+    <div class="product-card">
+        <img src="image/product-3.png" alt="Ergonomic Chair">
+        <h3>Comfort Chair</h3>
+        <h4>₹5,000</h4>
+        <div class="plus">+</div>
+    </div>
+
+</section>
+<section class="testimonial-section">
+
+    <h2>Testimonials</h2>
+
+    <div class="testimonial-container">
+
+        <button class="arrow left" onclick="prevTestimonial()">‹</button>
+
+        <div class="testimonial-content">
+
+            <p id="testimonial-text">
+                We create stylish and comfortable furniture for your home.
+                 Our furniture is made with quality materials and designed to provide comfort, durability, and a beautiful look. 
+                 We aim to make every space feel warm, modern, and welcoming.
+
+            </p>
+
+            <img id="testimonial-img"
+                 src="image/person-1.png"
+                 alt="Person">
+
+            <h4 id="testimonial-name">Maria Jones</h4>
+
+            <span id="testimonial-role">
+                CEO, Co-Founder, XYZ Inc.
+            </span>
+
+        </div>
+
+        <button class="arrow right" onclick="nextTestimonial()">›</button>
+
+    </div>
+
+    <div class="dots">
+        <span class="dot active" onclick="showTestimonial(0)"></span>
+        <span class="dot" onclick="showTestimonial(1)"></span>
+        <span class="dot" onclick="showTestimonial(2)"></span>
+    </div>
+
+</section>
+<section class="footer-top">
+
+    <div class="newsletter">
+
+        <h3>
+            <i class="fa-regular fa-envelope"></i>
+            Subscribe to Newsletter
+        </h3>
+
+        <form>
+
+            <input type="text" placeholder="Enter your name">
+
+            <input type="email" placeholder="Enter your email">
+
+            <button type="submit">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+    <div class="footer-chair">
+        <img src="image/sofa.png" alt="">
+    </div>
+
+</section>
+<footer class="footer">
+
+    <div class="footer-left">
+        <h2>Furni.</h2>
+
+        <p>
+           We offer stylish and comfortable furniture for your home. 
+           Our products are made with quality materials and designed for everyday comfort.
+
+        </p>
+
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-links">
+
+        <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Knowledge Base</a></li>
+            <li><a href="#">Live Chat</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Nordic Chair</a></li>
+            <li><a href="#">Kruzo Aero</a></li>
+            <li><a href="#">Ergonomic Chair</a></li>
+        </ul>
+
+    </div>
+
+</footer>
+
+<hr>
+
+<div class="copyright">
+
+    <p>Copyright ©2026. All Rights Reserved.</p>
+
+    <div>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furni.-Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awsom -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav>`
+<a href="#" class="logo">
+Furni<span>.</span>
+
+
+<ul>
+    <li><a href="index.html"class="active">Home</a></li>
+<li><a href="Shop.html">Shop</a></li>
+<li><a href="About.html">About Us</a></li>
+<li><a href="Services.html">Services</a></li>
+<li><a href="Blog.html">Blog</a></li>
+<li><a href="contact.html">Contact us</a></li>
+</ul>
+
+<div class="icons">
+<a href="#"><i class="fa-regular fa-user"></i></a>
+<a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="left">
+
+<h2>Blog</h2>
+
+<p>
+We offer beautifully crafted furniture designed to bring comfort,
+style, and functionality to your home. Our collection combines
+modern design with quality materials.
+</p>
+
+<div class="btn">
+<button class="shop">Shop Now</button>
+<button class="explore">Explore</button>
+</div>
+
+</div>
+
+<div class="right">
+<img src="image/couch 1 (1).png" alt="">
+
+</div>
+
+</section>
+<!-- Recent Blog Section -->
+
+ <section class="recent-blog"> 
+
+    <!-- Heading -->
+    <div class="blog-heading">
+        <h2></h2>
+        <a href="#">View All Posts</a>
+    </div>
+
+
+    <!-- Blog Cards -->
+    <div class="blog-container">
+
+        <!-- Blog 1 -->
+        <div class="blog-card">
+            <img src="image/post-1.jpg" alt="First Time Home Owner Ideas">
+
+            <h3>First Time Home Owner Ideas</h3>
+
+            <p>
+                by <b>Kristin Watson</b> on Dec 19, 2021
+            </p>
+        </div>
+
+
+        <!-- Blog 2 -->
+        <div class="blog-card">
+            <img src="image/post-2.jpg" alt="How To Keep Your Furniture Clean">
+
+            <h3>How To Keep Your Furniture Clean</h3>
+
+            <p>
+                by <b>Robert Fox</b> on Dec 15, 2021
+            </p>
+        </div>
+
+
+        <!-- Blog 3 -->
+        <div class="blog-card">
+            <img src="image/post-3.jpg" alt="Small Space Furniture Apartment Ideas">
+
+            <h3>Small Space Furniture Apartment Ideas</h3>
+
+            <p>
+                by <b>Kristin Watson</b> on Dec 12, 2021
+            </p>
+        </div>
+
+
+    </section>
+<section class="testimonial-section">
+
+    <h2>Testimonials</h2>
+
+    <div class="testimonial-container">
+
+        <button class="arrow left" onclick="prevTestimonial()">‹</button>
+
+        <div class="testimonial-content">
+
+            <p id="testimonial-text">
+                We create stylish and comfortable furniture for your home.
+                 Our furniture is made with quality materials and designed to provide
+                  comfort, durability, and a beautiful look. We aim to make every space feel warm, modern, and welcoming.
+
+            </p>
+
+            <img id="testimonial-img"
+                 src="image/person-1.png"
+                 alt="Person">
+
+            <h4 id="testimonial-name">Maria Jones</h4>
+
+            <span id="testimonial-role">
+                CEO, Co-Founder, XYZ Inc.
+            </span>
+
+        </div>
+
+        <button class="arrow right" onclick="nextTestimonial()">›</button>
+
+    </div>
+
+    <div class="dots">
+        <span class="dot active" onclick="showTestimonial(0)"></span>
+        <span class="dot" onclick="showTestimonial(1)"></span>
+        <span class="dot" onclick="showTestimonial(2)"></span>
+    </div>
+
+</section>
+
+<section class="footer-top">
+
+    <div class="newsletter">
+
+        <h3>
+            <i class="fa-regular fa-envelope"></i>
+            Subscribe to Newsletter
+        </h3>
+
+        <form>
+
+            <input type="text" placeholder="Enter your name">
+
+            <input type="email" placeholder="Enter your email">
+
+            <button type="submit">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+    <div class="footer-chair">
+        <img src="image/sofa.png" alt="">
+    </div>
+
+</section>
+<footer class="footer">
+
+    <div class="footer-left">
+        <h2>Furni.</h2>
+
+        <p>
+            We make things simple, comfortable, and easy to use.
+             We are committed to providing quality products and excellent service.
+              We always focus on meeting our customers’ needs and making them happy.
+
+        </p>
+
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-links">
+
+        <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Knowledge Base</a></li>
+            <li><a href="#">Live Chat</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Nordic Chair</a></li>
+            <li><a href="#">Kruzo Aero</a></li>
+            <li><a href="#">Ergonomic Chair</a></li>
+        </ul>
+
+    </div>
+
+</footer>
+
+<hr>
+
+<div class="copyright">
+
+    <p>Copyright ©2026. All Rights Reserved.</p>
+
+    <div>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+    </div>
+
+</div>
+
+
+</body>
+</html>
